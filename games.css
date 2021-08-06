@@ -1,0 +1,129 @@
+body{
+    background: url(Hotel.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    background-color: black;
+}
+html{
+    height: 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 5em;
+
+}
+a{
+    text-decoration: none;
+}
+
+.review-section {
+	background-position: right top;
+}
+
+.review-item .review-cover {
+	position: relative;
+	margin-bottom: 30px;
+	height: 345px;
+}
+
+.review-item .review-cover .score {
+	position: absolute;
+	width: 54px;
+	height: 54px;
+	top: -27px;
+	left: 26px;
+	padding-top: 15px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.review-item .review-cover .score.yellow {
+	background: #ffb320;
+}
+
+.review-item .review-cover .score.purple {
+	background: #694eae;
+}
+
+.review-item .review-cover .score.pink {
+	background: #ff20ae;
+}
+
+.review-item .review-cover .score.green {
+	background: #4eae60;
+}
+
+.review-item .review-text {
+	text-align: center;
+}
+
+.review-item .review-text h5 {
+	margin-bottom: 20px;
+}
+
+.review-item .review-text p {
+	margin-bottom: 0;
+}
+
+.review-item .rating {
+	margin-bottom: 20px;
+}
+
+.review-item .rating i {
+	font-size: 12px;
+}
+
+.widget-item .review-item {
+	background: #eff2f5;
+}
+
+.widget-item .review-item .review-text {
+	padding: 0 35px 20px;
+}
+
+.review-page .review-item {
+	margin-bottom: 63px;
+}
+
+.review-page .review-item .review-text h4 {
+	margin-bottom: 10px;
+}
+
+.review-dark .review-item .review-text p {
+	color: #b5b5b5;
+}
+
+.review-section.review-dark {
+	background-position: center top;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .review-section {
+		background-position: left top;
+	}
+	.review-item {
+		margin-bottom: 63px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .review-section {
+		background-position: right 10% top;
+	}
+	.review-item .review-cover {
+		height: 280px;
+	}
+}    
+
+@media only screen and (max-width: 479px) {
+    .page-info-section .pi-content h2 {
+        font-size: 40px;
+    }
+}
